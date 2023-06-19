@@ -1,12 +1,15 @@
 # Next debugging
 This repo explore different types of nextjs apps and debugging the server with `NODE_OPTIONS='--inspect'`
 
-1. `npm` Standalone NextJS app (Javascript)
-2. `npm` Standalone NextJS app (Typescript)
-3. `pnpm` Standalone NextJS app (Javascript)
-4. `pnpm` Standalone NextJS app (Typescript)
-5. `pnpm` workspace monorepo with a NextJS app (Javascript)
-6. `pnpm` workspace monorepo with a NextJS app (Typescript)
+1. `npm` Standalone NextJS app pages (Javascript) [code here](./npm-standalone-nextjs-pages-javascript)
+2. `npm` Standalone NextJS app pages (Typescript)
+3. `npm` Standalone NextJS app app-directory (Javascript)
+4. `npm` Standalone NextJS app app-directory (Typescript)
+5. `pnpm` Standalone NextJS app pages (Javascript)
+6. `pnpm` Standalone NextJS app pages (Typescript)
+7. `pnpm` Standalone NextJS app app-directory (Javascript)
+8. `pnpm` Standalone NextJS app app-directory (Typescript)
+9. `pnpm` Monorepo with turborepo NextJS app app-directory (Typescript)
 
 ## Next documentation on debugging
 Their docs about [debugging are here](https://nextjs.org/docs/pages/building-your-application/configuring/debugging)
