@@ -9,10 +9,10 @@ dependencies:
     specifier: link:../next.js/packages/next
     version: 13.4.7(react-dom@18.2.0)(react@18.2.0)
   react:
-    specifier: link:../next.js/node_modules/react
+    specifier: ^18.2.0
     version: 18.2.0
   react-dom:
-    specifier: link:../next.js/node_modules/react-dom
+    specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
 
 optionalDependencies:
