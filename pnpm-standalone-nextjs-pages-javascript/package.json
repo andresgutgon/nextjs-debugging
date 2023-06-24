@@ -9,8 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "13.4.7",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next": "link:../next.js/packages/next",
+    "react": "link:../next.js/node_modules/react",
+    "react-dom": "link:../next.js/node_modules/react-dom"
+  },
+  "optionalDependencies": {
+    "@next/swc-darwin-arm64": "canary",
+    "@next/swc-darwin-x64": "canary",
+    "@next/swc-linux-x64-gnu": "canary",
+    "@next/swc-win32-x64-msvc": "canary"
   }
 }
