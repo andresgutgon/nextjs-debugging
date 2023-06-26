@@ -12,12 +12,6 @@
       ]
     },
     {
-      "name": "Next.js: debug server-side",
-      "type": "pwa-node",
-      "request": "launch",
-      "command": "NODE_OPTIONS='--inspect' pnpm dev"
-    },
-    {
       "name": "Next.js: (vscode-working-node-terminal)",
       "type": "node-terminal",
       "request": "launch",
